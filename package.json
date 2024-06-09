@@ -1,0 +1,25 @@
+{
+  "name": "task-management-application",
+  "version": "1.0.0",
+  "description": "A simple Task Management Application that allows users to create, read, update, and delete tasks.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aSSanjay18/task-management-app.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^5.13.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

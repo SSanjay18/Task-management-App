@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <main>
+        <section id="task-form-section">
+            <h2>Add New Task</h2>
+            <form id="task-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="dueDate">Due Date:</label>
+                <input type="date" id="dueDate" name="dueDate" required>
+
+                <button type="submit">Add Task</button>
+                <button id="clear-form">Clear</button>
+            </form>
+        </section>
+        <section id="tasks-list-section">
+            <h2>Tasks List</h2>
+            <ul id="tasks-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p> Sanjay S 
+            sanjaymsan2003@gmail.com </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
